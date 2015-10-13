@@ -6,8 +6,18 @@
 
 
 
+.hidden-content
+{
+	display:none;
+}
 
-
+.centered-medalion
+{
+	display: block; 
+	margin-left:auto; 
+	margin-right:auto;
+	border-radius: 70%;
+}
 
 
 
