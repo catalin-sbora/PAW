@@ -7,7 +7,8 @@ if ($_SESSION['loggedin'] != 1)
 	*/
 	$serverName = $_SERVER['HTTP_HOST'];
 	$url = rtrim(dirname($_SERVER['PHP_SELF']), '/\\');
-	$extra = 'login.html';  // change accordingly
+	$extra = 'login.html';  
+	//redirect to location $extra
 	header('Location: '.$extra, true, 303);
 	die();
 }
